@@ -1,20 +1,23 @@
-
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .venv/
+local_agent_venv/
+
+# Environment
 .env
 
-# Streamlit
-.streamlit/
-
-# Data (runtime only)
+# Data
 data/uploads/
+
+# Editor
+.vscode/
+.idea/
 
 # OS
 .DS_Store
 
-# Editors
-.vscode/
+# Logs
+*.log
